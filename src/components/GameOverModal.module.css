@@ -1,0 +1,54 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(9, 13, 22, 0.85);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.card {
+    background-color: #0f172a;
+    padding: 28px 40px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 0 6px 0;
+}
+
+.p1Title {
+    color: #38bdf8;
+}
+
+.p2Title {
+    color: #f43f5e;
+}
+
+.drawTitle {
+    color: #e2e8f0;
+}
+
+.score {
+    color: #94a3b8;
+    margin: 4px 0 24px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.playAgainBtn {
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #38bdf8;
+    color: #090d16;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 13px;
+}

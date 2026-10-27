@@ -1,0 +1,60 @@
+.card {
+    width: clamp(130px, 14vw, 180px);
+    padding: 16px 12px;
+    border-radius: 16px;
+    background-color: #0f172a;
+    border: 1px solid #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    transition: all 0.3s;
+}
+
+.p1Active {
+    border: 2px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.p2Active {
+    border: 2px solid #f43f5e;
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.2);
+}
+
+.title {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.p1Title {
+    color: #38bdf8;
+}
+
+.p2Title {
+    color: #f43f5e;
+}
+
+.score {
+    font-size: clamp(32px, 5vh, 44px);
+    font-weight: 900;
+    color: #ffffff;
+    margin: 4px 0;
+}
+
+.turnBadge {
+    font-size: 9px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.p1Badge {
+    background-color: #38bdf8;
+    color: #090d16;
+}
+
+.p2Badge {
+    background-color: #f43f5e;
+    color: #ffffff;
+}
