@@ -57,8 +57,10 @@ square-off/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
-```markdown
+---
+
 ## 🎮 How to Play
 
 ### 📜 Objective
@@ -89,42 +91,33 @@ Follow these steps to run the project locally on your system:
 ### Local Setup
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/shreyas-babar/Square-OFF.git](https://github.com/shreyas-babar/Square-OFF.git)
+   git clone https://github.com/shreyas-babar/Square-OFF.git
    cd Square-OFF
-
-```
+   ```
 
 2. **Install Dependencies:**
-```bash
-npm install
-
-```
-
+   ```bash
+   npm install
+   ```
 
 3. **Start the Development Server:**
-```bash
-npm run dev
-
-```
-
+   ```bash
+   npm run dev
+   ```
 
 4. **Open in Browser:**
-Navigate to `http://localhost:5173` in your web browser.
+   Navigate to `http://localhost:5173` in your web browser.
 
 ---
 
 ## 🌐 Live Demo
 
-* **Vercel Deployment:** [https://square-off.vercel.app](https://square-off.vercel.app) *(Replace with your live URL)*
+- **Vercel Deployment:** [https://square-off.vercel.app](https://square-off.vercel.app)
 
 ---
 
 ## 💡 Future Enhancements
 
-* 🤖 **Single Player Mode:** Add an AI algorithm (Minimax / Alpha-Beta Pruning) for solo play.
-* ⏱️ **Turn Timer:** Introduce an optional countdown clock per turn.
-* 🔊 **Audio Effects:** Add sound effects for line placement, box captures, and victory announcements.
-
-```
-
-```
+- 🤖 **Single Player Mode:** Add an AI algorithm (Minimax / Alpha-Beta Pruning) for solo play.
+- ⏱️ **Turn Timer:** Introduce an optional countdown clock per turn.
+- 🔊 **Audio Effects:** Add sound effects for line placement, box captures, and victory announcements.
